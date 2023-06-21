@@ -69,6 +69,8 @@
     font-family: Arial;
     margin: auto;
     height: 10px;
+    align-items: center;
+    margin: 1px 20px 1px 350px ;
   }
   br{
     height: 20px;
@@ -94,6 +96,8 @@
   .videoprincipal {
     display: flex;
     flex-direction: center;
+    align-items: center;
+    margin: 1px 20px 1px 300px ;
   }
   
 @media (min-width: 670px) {
@@ -198,7 +202,8 @@ nav a:hover {
   }
 
   .img-container{
-    display: block;
+    align-items: center;
+    margin: 1px 20px 1px 50px ;
   }
 
   iframe, video {
@@ -208,5 +213,6 @@ nav a:hover {
 .geeting {
   text-align: center;
 }
+
 
 
