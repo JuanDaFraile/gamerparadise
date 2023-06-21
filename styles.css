@@ -91,6 +91,10 @@
     flex: 1;
     padding: 10px;
   }
+  .videoprincipal {
+    display: flex;
+    flex-direction: center;
+  }
   
 @media (min-width: 670px) {
   .column {
