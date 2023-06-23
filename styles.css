@@ -1,12 +1,12 @@
 .Contenedorgeneral{  
   width: 1200px;
   height: auto;
-  background-color: WHITE;
+  background-color: #15297c;
   margin: auto;
   display:column;
 }  
 .container1{
-    background-color:white; 
+    background-color:#15297c; 
     width: 1100px;
     height: 100px;
     margin: auto;
@@ -16,11 +16,13 @@
     }
   h1{
     padding: 2px 5px 2px 80px;
-    color:cyan;
+    color: lime;
     font-family:'Helvetica';
     font-size: 50px;
+    display: flex;
+    flex-direction: center;
    }
-   img{
+   .img-principal{
     align-items: center;
     width: 450px;
     height: 500px;
@@ -55,13 +57,12 @@
     margin: auto;
   }
   p4{
-  padding:5px 10px 5px 200px;
+    padding:5px 10px 5px 200px;
     color:darkblue;
     font-size: 20px;
     font-family: Arial;
     margin: auto;
     height: 20px;
-    
   }
   p5{
     color:darkblue;
@@ -99,6 +100,15 @@
     align-items: center;
     margin: 1px 20px 1px 300px ;
   }
+
+  .img-games {
+    align-items: center;
+    width: 450px;
+    height: 500px;
+    margin: 1px 20px 1px 300px;
+    display: flex;
+    flex-direction: center;
+  }
   
 @media (min-width: 670px) {
   .column {
@@ -106,7 +116,7 @@
   }
 }
 body{
-  background-color: yellow;
+  background-color:gray;
 }
 
 .container-nav {
@@ -128,7 +138,7 @@ body{
   display: flex;
   align-items: center;
   font-size: 35px;
-  Color: #FF2400;
+  Color: #FD3500;
 }
 
 
