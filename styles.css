@@ -1,77 +1,67 @@
-.Contenedorgeneral{  
-  width: 1200px;
-  height: auto;
-  background-color: #15297c;
-  margin: auto;
-  display:column;
-}  
-.container1{
-    background-color:#15297c; 
-    width: 1100px;
-    height: 100px;
-    margin: auto;
-    padding: 40px;
-    display: flex;
-    flex-direction: center;
-    }
+
   h1{
-    padding: 2px 5px 2px 80px;
     color: lime;
     font-family:'Helvetica';
     font-size: 50px;
-    display: flex;
-    flex-direction: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
    }
+
    .img-principal{
-    align-items: center;
-    width: 450px;
-    height: 500px;
-    margin: 1px 20px 1px 350px ;
-    display: flex;
-    flex-direction: center;  
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
    }
-  body{
-    background-color:white;
-  
-    
-  }
+
   p{
-    padding:5px 10px 5px 150px;
-    color:darkblue;
+    color: white;
     font-size: 20px;
     font-family: Arial;
     margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
   }
   p2{
-    padding:5px 10px 5px 300px;
-    color:darkblue;
+    text-align: center;
+    color:yellow;
     font-size: 20px;
-    font-family: Arial;
-    margin: auto;
+    font-family: Arial; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   p3{
-    padding:5px 10px 5px 250px;
-    color:darkblue;
+    text-align: center;
+    color:orange;
     font-size: 20px;
     font-family: Arial;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   p4{
-    padding:5px 10px 5px 200px;
-    color:darkblue;
+    text-align: center;
+    color:red;
     font-size: 20px;
     font-family: Arial;
-    margin: auto;
-    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   p5{
     color:darkblue;
     font-size: 20px;
     font-family: Arial;
-    margin: auto;
-    height: 10px;
     align-items: center;
-    margin: 1px 20px 1px 350px ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   br{
     height: 20px;
@@ -79,9 +69,11 @@
   h2{color:lime;
     font-family: Arial;
     font-size: large;
-    padding: 5px 10px 5px 370px;
+    text-align: center;
     font-size: 30px;
-    flex-direction: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   
   }
   .row {
@@ -96,18 +88,17 @@
   }
   .videoprincipal {
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
     align-items: center;
-    margin: 1px 20px 1px 300px ;
+    padding: 50px;
   }
 
   .img-games {
-    align-items: center;
-    width: 450px;
-    height: 500px;
-    margin: 1px 20px 1px 300px;
-    display: flex;
-    flex-direction: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0px 0px 50px 0px;
   }
   
 @media (min-width: 670px) {
@@ -116,12 +107,13 @@
   }
 }
 body{
-  background-color:gray;
+  background-color:#15297c;
 }
 
 .container-nav {
   display: flex;
-  padding: 20px 10px 20px 100px;
+  padding: 20px 5px 20px 50px;
+  width: auto;
   height: 50px;
   background-color: black;
 }
@@ -143,7 +135,7 @@ body{
 
 
 li>a {
-  padding: 8px 24px;
+  padding: 8px 20px;
 }
 
 
@@ -188,7 +180,7 @@ nav a:hover {
     background-color: white;
     border:none;
     border-radius: 50px;
-    padding: 0 24px;
+    padding: 0 25px;
     font-family: monospace;
     font-weight: bold;
     font-size: 20px;
@@ -198,7 +190,7 @@ nav a:hover {
     position: absolute;
     display: flex;
     background-color: rgba(20,20,20,0.95);
-    width: 100%;
+    width: 90%;
     height: 100%;
     top: 70px;
     left: 0;
@@ -213,11 +205,14 @@ nav a:hover {
 
   .img-container{
     align-items: center;
-    margin: 1px 20px 1px 50px ;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
-  iframe, video {
-    max-width: 90%;
+  iframe {
+    max-width: 120%;
   }
 }
 .geeting {
