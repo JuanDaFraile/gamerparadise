@@ -4,7 +4,7 @@ document.querySelector("button.button-menu-toggle")
                       classList.toggle("nav-links-responsive")})
 
 function showAlert() {
-    alert("HOLA, NO OLVIDES VISITAR NUESTRAS REDES!!!")
+    alert("HOLA, NO OLVIDES VISITAR NUESTRAS REDES SOCIALES!!!")
 }
 const form = document.getElementById('myForm');
     

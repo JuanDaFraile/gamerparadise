@@ -1,4 +1,7 @@
-
+body{
+  background-color:#15297c;
+  margin: 0px;
+}
   h1{
     color: lime;
     font-family:'Helvetica';
@@ -54,10 +57,9 @@
     display: block;
   }
   p5{
-    color:darkblue;
-    font-size: 20px;
+    color:orange;
+    font-size: 30px;
     font-family: Arial;
-    align-items: center;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -106,9 +108,7 @@
     flex: 100%;
   }
 }
-body{
-  background-color:#15297c;
-}
+
 
 .container-nav {
   display: flex;
@@ -177,13 +177,14 @@ nav a:hover {
 
   .button-menu-toggle {
     display: block;
-    background-color: white;
+    background-color: red;
     border:none;
     border-radius: 50px;
     padding: 0 25px;
     font-family: monospace;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
   }
  
   .nav-links.nav-links-responsive {
@@ -218,6 +219,30 @@ nav a:hover {
 .geeting {
   text-align: center;
 }
+
+footer {
+  background-color: rgba(128, 128, 128, 0.5);  
+  font-size: 30px; 
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+footer button {
+  width: 100px; 
+  height:100px; 
+  border-radius: 100%; 
+  background-color: green; 
+  color: white;
+  
+}
+
+
+
+
 
 
 
